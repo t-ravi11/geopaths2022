@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    background: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: large;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #6d6c70;
+}
+
+header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 20px;
+
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a::before {
+    content: "";
+    display: block;
+    height: 5px;
+    background-color: white;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  h1 {
+    text-align: center;
+  }
+  .introduction {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: white;
+    color: white;
+  }
+  h4 {
+    text-align: center;
+  }
+
+  .backgroundtext {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  h2 {
+    padding-left: 25px;
+  }
+
+  .container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  img {
+    max-width: 100%
+  }
+  .image {
+    flex-basis: 40%
+  }
+  .text {
+    padding-left: 20px;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .errortext {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .methodstext {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {background-color: #6d6c70;}
+
+  .analysistext {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .conditionstext {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .indextext {
+    padding-left: 50px;
+    padding-right: 50px;
+  }

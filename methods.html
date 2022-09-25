@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Geopaths</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <a href="index.html">
+                <img src="geopaths_logo.png" class="logo" alt="logo" width="50" height="50">
+                </a>
+                <nav> 
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="background.html">Background</a></li>
+                        <li><a href="conditions.html">Conditions</a></li>
+                        <li><a href="methods.html">Methods</a></li>
+                        <li><a href="results.html">Results</a></li>
+                        <li><a href="summary.html">Summary</a></li>
+                        <li><a href="uncertainty.html">Uncertainty</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <h1>Methods</h1>
+
+        <h4>Digitzing</h4>
+        <div class="methodstext">
+            <p>To accurately represent the Oso Landlside, one of our tasks was to digitize the Oso slope
+            profile and recreate the geometry in Optum G2.
+            </p>
+        </div>
+        
+        <h4>Boundary Conditions</h4>
+
+        <img src="optum diagram.jpg" class="center" style="width: 30%;">
+
+        <h4>Factor of Safety (FS)</h4>
+    <div class="methodstext">
+        <p>The Factor of Safety (FS) is the ratio between the resisting force and the driving force. This means that when the force resisting downward movement of the slope is less than the driving force, the slope is considered unstable, giving an FS value of less than 1. A FS of more than 1 indicates slope stability. However, to account for variations in the assumptions made in the analysis, engineers aim for a factor of safety of 1.2 or greater.</p>
+    </div>
+        
+        <h4>Pore Pressure</h4>
+
+              <img src="Pore pressure.png" alt="pore pressure" class="center" style="width: 30%;">
+
+              <p class="methodstext">Pore pressure is the pressure of the groundwater within soil or rock, in gaps between particles.
+            Without groundwater, the particles are much closer together, resulting in a larger friction angle. When
+            groundwater is introduced, the particles are much more spaced out, resulting in a smaller friction angle,
+            making it much easier for one particle to roll over the particle downslope from itself.
+              </p>
+
+          <h4>Mohr-Coulomb Model</h4>
+          <img src="mohrcoulomb.png" alt="mohr coulomb" class="center" style="width: 25%;">
+        <div class="methodstext">
+          <p>The Mohr-Coulomb model describes the strength of the material and how it responds to stresses. It assumes an elastoplastic behavior which can be represented by a graph.</p>
+          <img src="MC2.jpg" alt="mohr coulomb" class="center" style="width: 25%;">
+        </div>
+
+          <h4>Seepage Analysis</h4>
+        <div class="methodstext">
+          <p>The first analysis run (if groundwater is in the system) is seepage, which characterizes the hydraulic behavior of the soil. This analysis is run first because we want to understand stresses due to water before doing the strength reduction analysis.</p>
+        </div>
+
+          <h4>Strength Reduction Analysis</h4>
+        <div class="methodstext">
+          <p>For the strength reduction analysis, the program takes the ratio that is given by the factor of safety, and reduces the associated strength parameters, cohesion and friction angle. It reduces these factors until there is permanent deformation in the slope.</p>
+        </div>
+
+          <h4>Soil Nails</h4>
+        <div class="center">
+          <img src="Soilnails.png" alt="soil nails">
+        </div>
+
+    </body>
+</html>
