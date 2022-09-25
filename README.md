@@ -1,0 +1,2 @@
+# Landslide Modeling - Torin Ravi
+This repository contains the files for the website that I made during my internship at Northwestern University in the summer of 2022. Working with a PhD student, our aim was to investigate the failure mechanisms of landslides to understand how and when they occur, and to study the effectiveness of slope failure mitigation strategies, all by using geotechnical analysis software.
